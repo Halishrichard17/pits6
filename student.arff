@@ -1,0 +1,20 @@
+@relation student
+
+@attribute sid numeric
+@attribute name string
+@attribute DM numeric
+@attribute DAA numeric
+@attribute CN numeric
+@attribute IDS numeric
+@attribute CG numeric
+@attribute IRS numeric
+@attribute total numeric
+@attribute result {pass, fail}
+
+@data
+1, pavan, 60, 65, 55, 50, 50, 54, 334, pass
+2, vishal, 70, 54, 46, 48, 58, 56, 332, pass
+3, rajesh, 60, 55, 40, 50, 40, 76, 321, pass
+4, kiran, 60, 55, 30, 50, 40, 55, 290, fail
+5, suresh, 60, 55, 45, 60, 40, 66, 326, pass
+6, manish, 60, 55, 65, 50, 20, 37, 287, fail
